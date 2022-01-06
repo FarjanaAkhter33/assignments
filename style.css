@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
-    margin: 0px;
+    margin: 0px auto;
 }
 #header{
     display: flex;
@@ -24,6 +24,7 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(tomato, salmon);
     border-image-slice: 1;
+    padding-left: 5px;
 }
 .first-box a{
     text-decoration: none;
@@ -35,4 +36,57 @@ p{
 .first-box img{
     width: 85%;
     margin: -25px 100px;
+}
+#mission{
+    text-align: center;
+}
+.box-container{
+    border: 2px solid red;
+    display: flex;
+}
+.box{
+    float: left;
+    width: 30%;
+    margin: 10px 15px;
+    padding: 1px 30px;
+    border-radius: 10px;
+    background-color: rosybrown;
+    
+}
+.box img{
+    width: 45%;
+}
+/* #develop{
+    display: flex;
+} */
+.image{
+    width: 30%;
+    float: left;
+}
+.image img{
+    width: 51%;
+    padding: 15px 30px;
+}
+}
+.content{
+    width: 36%;
+    margin-right: 50px;
+    padding: 44px;
+}
+#community{
+    overflow: hidden;
+}
+#application{
+    margin: 10px 10px;
+    text-align: center;
+    height: 150px;
+    box-shadow: red 5px 5px 5px 5px;
+    padding: 5px 5px;
+}
+#footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
