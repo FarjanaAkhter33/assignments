@@ -30,7 +30,7 @@ p{
     text-decoration: none;
     font-size: 20px;
     padding: 5px 10px;
-    background: deeppink;
+    background: blanchedalmond;
     border-radius: 10px;
 }
 .first-box img{
@@ -41,7 +41,6 @@ p{
     text-align: center;
 }
 .box-container{
-    border: 2px solid red;
     display: flex;
 }
 .box{
@@ -50,31 +49,45 @@ p{
     margin: 10px 15px;
     padding: 1px 30px;
     border-radius: 10px;
-    background-color: rosybrown;
     
+}
+#one{
+    background-color: blanchedalmond;
+}
+#two{
+    background-color: burlywood;
+}
+#three{
+    background-color: aquamarine;
 }
 .box img{
     width: 45%;
 }
-/* #develop{
+.container-dev{
     display: flex;
-} */
+}
 .image{
     width: 30%;
     float: left;
 }
 .image img{
-    width: 51%;
-    padding: 15px 30px;
-}
+    width: 61%;
+    padding: 5px 50px;
 }
 .content{
     width: 36%;
     margin-right: 50px;
-    padding: 44px;
+    padding: 10px;
 }
-#community{
-    overflow: hidden;
+.content a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: blanchedalmond;
+    border-radius: 10px;
+}
+#community .content {
+    width: 65%;
 }
 #application{
     margin: 10px 10px;
